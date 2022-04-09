@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:rgb(4, 4, 4);
+}
+
+.wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wraper img {
+    width: 180px;
+    padding: 20px;
+}
+
+span {
+    color: rgb(249, 244, 244);
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    padding: 4px;
+}
